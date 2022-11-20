@@ -1,0 +1,29 @@
+.page {
+  max-width: 1280px;
+  /* выше установили ограничение по максимальной ширине */
+  background-color: #2A2C2F;
+  margin: 0 auto;
+  /* выше для экранов больше 1280px отцентрировали весь контент */
+  font-family: 'Inter', 'Helvetica Neue', 'Arial', 'sans-serif';
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    width: 100%;
+  }
+}

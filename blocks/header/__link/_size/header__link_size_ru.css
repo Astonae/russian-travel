@@ -1,0 +1,14 @@
+.header__link_size_ru {
+  max-width: 30px;
+  max-height: 28px;
+  font-size: 100%;
+  text-decoration-line: underline;
+  text-decoration-color: #FFF;
+}  
+
+@media screen and (max-width: 320px) {
+  .header__link_size_ru {  
+    min-width: 22px;
+    min-height: 20px; 
+  }
+}
