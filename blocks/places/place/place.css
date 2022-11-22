@@ -1,8 +1,8 @@
 .place {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr minmax(min-content, max-content);
-  grid-template-rows: repeat(2, min-content);   
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
   justify-content: start;
   align-content: space-between;
   gap: 48px 40px;
@@ -23,7 +23,6 @@
   .place {  
     gap: 48px 28px;
     margin-bottom: 73px;
-    grid-template-columns: 2fr;
   }
 }
 

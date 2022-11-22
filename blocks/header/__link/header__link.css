@@ -1,4 +1,20 @@
 .header__link {
-  list-style-type: none;  
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  font-style: normal;
+  text-align: right;
+  text-decoration: none;
 }
 
+@media screen and (max-width: 320px) {
+  .header__link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+.header__link:hover {
+  opacity: 0.8;
+}

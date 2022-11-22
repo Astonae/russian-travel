@@ -1,11 +1,12 @@
 .footer__link {
-text-decoration: none; 
-color: #fff; 
+text-decoration: none;
+color: #fff;
 font-style: normal;
 list-style-type: none;
 display:inline-block;
 }
 
 .footer__link:hover {
-  color: red;  
+  text-decoration-line: underline;
+  opacity: 0.8;
 }

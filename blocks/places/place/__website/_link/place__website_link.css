@@ -8,5 +8,7 @@
 }
 
 .place__website_link:hover {
-  color: red;
-}
+  text-decoration-line: underline;
+  opacity: 0.8;
+  }
+
