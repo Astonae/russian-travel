@@ -1,4 +1,5 @@
 Автор: Шашкин Антон, Спринт 2 Яндекс Практикум
+[a link](https://astonae.github.io/russian-travel)
 
 Технологии: HTML, CSS, Grid, Адаптивная вёрстка и медиазапросы.
 
