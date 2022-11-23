@@ -1,13 +1,10 @@
 .header__language {
   max-width: 30px;
-  max-height: 28px;
   font-size: 100%;
 }
 
 @media screen and (max-width: 320px) {
   .header__language {
     min-width: 22px;
-    min-height: 20px;
   }
 }
-
