@@ -4,7 +4,7 @@
   padding: 92px 48px 0 48px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 16px 16px;
+  gap: 16px;
   margin: 0;
 }
 
@@ -12,7 +12,7 @@
   .photo-grid {
     max-width: 928px;
     grid-template-columns: repeat(3, 1fr);
-    gap: 14px 14px;
+    gap: 14px;
   }
 }
 
@@ -21,15 +21,15 @@
     max-width: 720px;
     padding: 88px 24px 0 24px;
     grid-template-columns: repeat(2, 1fr);
-    gap: 16px 16px;
+    gap: 16px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .photo-grid {
     max-width: 288px;
-    padding: 64px 16px 0 16px;
-    grid-template-columns: repeat(1, 1fr);
+    padding: 67px 16px 0 16px;
+    grid-template-columns: 1fr;
     gap: 12px;
   }
 }
