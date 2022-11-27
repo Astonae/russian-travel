@@ -22,6 +22,27 @@
   }
 }
 
+@media screen and (max-width: 740px) {
+  .lead__subtitle {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (max-width: 627px) {
+  .lead__subtitle {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 467px) {
+  .lead__subtitle {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead__subtitle {
     max-width: 288px;
