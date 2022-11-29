@@ -24,7 +24,7 @@
 @media screen and (max-width: 805px) {
   .place {
     gap: 48px 32px;
-    grid-template-columns: 350px 45%;
+    grid-template-columns: 350px fit-content(100%);
   }
 }
 
@@ -32,7 +32,7 @@
   .place {
     gap: 48px 28px;
     margin-bottom: 73px;
-    grid-template-columns: 340px 40%;;
+    grid-template-columns: 340px fit-content(100%);
   }
 }
 
